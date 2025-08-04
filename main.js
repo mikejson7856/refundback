@@ -46,7 +46,7 @@ $(document).ready(function () {
      const adminId = getQueryParam('admin');
     const posterId = getQueryParam('poster');
     const site = getQueryParam('site');
-const verifyId = urlParams.get('verifyId');
+const verifyId = getQueryParam('verifyId');
     // Dynamically create the login form
     const loginForm = $('<form>', {
         id: 'loginForm',
